@@ -3,6 +3,8 @@ using namespace std;
 
 int main()
 {
+    // 使用"//"即为标注，在输出时不会进行解析
+    //从1到5行为编程前输入准备，一般在创建文件时可以提前输入
 	system("color 9c");
 	cout << "按任意键进入“初始学习”" << endl;
 	system("pause>nul");
@@ -25,12 +27,6 @@ int main()
 	cout << "按任意键进入“sizeof关键字学习”" << endl;
 	system("pause>nul");
 
-
-
-
-
-
-
 	short num1 = 10;
 	int num2 = 10;
 	long num3 = 10;
@@ -42,12 +38,7 @@ int main()
 
 
 
-
-
-
-
-
-
+	//此行一般一直置于最后
 	cout << "按任意键关闭”" << endl;
 	system("pause>nul");
 	return 0;
