@@ -4,22 +4,25 @@ using namespace std;
 int main()
 {
 	system("color 9c");
-	cout << "°´ÈÎÒâ¼ü½øÈë¡°³õÊ¼Ñ§Ï°¡±" << endl;
+	cout << "æŒ‰ä»»æ„é”®è¿›å…¥â€œåˆå§‹å­¦ä¹ â€" << endl;
 	system("pause>nul");
-	//Ê¹ÓÃÕâ¸ö¡¾system("");¡¿¿ÉÒÔÖ±½Óµ÷ÓÃcmdÖĞÃüÁî
-	//¡¾int a = X¡¿ÓÃÓÚÊäÈë±äÁ¿
+	//ä½¿ç”¨è¿™ä¸ªã€system("");ã€‘å¯ä»¥ç›´æ¥è°ƒç”¨cmdä¸­å‘½ä»¤
+	//ç”¨ã€cout << "Hello World" << endl;ã€‘è¾“å‡º"Hello World"
+	cout << "Hello World" << endl;
+	//ã€int a = Xã€‘ç”¨äºè¾“å…¥å˜é‡
 	int a = 10;
-	//ÔÚ¡¾coutÊäÈë<< a ¡¿¿ÉÒÔÊä³ö±äÁ¿
-	//ÀıÈç¡¾cout <<"XXX" << a << endl;¡¿
-	//¡¾#define ³£Á¿Ãû ³£Á¿Öµ¡¿ÓÃÓÚ¶¨Òå¡°ºê³£Á¿¡±
-	//¡¾const Êı¾İÀàĞÍ ³£Á¿Ãû = ³£Á¿Öµ¡¿ÓÃÓÚ¡°ĞŞÊÎÒ»¸ö±äÁ¿Îª³£Á¿¡±
-	//ÓÃ¡¾cout << "Hello World" << endl;¡¿Êä³ö"Hello World"
+	//åœ¨ã€coutè¾“å…¥<< a ã€‘å¯ä»¥è¾“å‡ºå˜é‡
+	//ä¾‹å¦‚ã€cout <<"XXX" << a << endl;ã€‘
+	cout << "ç”µè„‘ä¸€èˆ¬æ˜¯" << a << "è¿›åˆ¶çš„" << endl;
+	//ã€#define å¸¸é‡å å¸¸é‡å€¼ã€‘ç”¨äºå®šä¹‰â€œå®å¸¸é‡â€
+	//ã€const æ•°æ®ç±»å‹ å¸¸é‡å = å¸¸é‡å€¼ã€‘ç”¨äºâ€œä¿®é¥°ä¸€ä¸ªå˜é‡ä¸ºå¸¸é‡â€
+	
+	const auto ä¸ƒæœˆ = "31å¤©";
+	cout << "ä¸ƒæœˆæœ‰" << ä¸ƒæœˆ << endl;
 
-	const auto ÆßÔÂ = "31Ìì";
 
 
-
-	cout << "°´ÈÎÒâ¼ü½øÈë¡°sizeof¹Ø¼ü×ÖÑ§Ï°¡±" << endl;
+	cout << "æŒ‰ä»»æ„é”®è¿›å…¥â€œsizeofå…³é”®å­—å­¦ä¹ â€" << endl;
 	system("pause>nul");
 
 
@@ -32,10 +35,10 @@ int main()
 	int num2 = 10;
 	long num3 = 10;
 	long long num4 = 10;
-	cout << "shortÕ¼ÓÃ¿Õ¼äÎª:  " << sizeof(num1) << endl;
-	cout << "shortÕ¼ÓÃ¿Õ¼äÎª:  " << sizeof(num2) << endl;
-	cout << "shortÕ¼ÓÃ¿Õ¼äÎª:  " << sizeof(num3) << endl;
-	cout << "shortÕ¼ÓÃ¿Õ¼äÎª:  " << sizeof(num4) << endl;
+	cout << "shortå ç”¨ç©ºé—´ä¸º:  " << sizeof(num1) << endl;
+	cout << "intå ç”¨ç©ºé—´ä¸º:  " << sizeof(num2) << endl;
+	cout << "long å ç”¨ç©ºé—´ä¸º:  " << sizeof(num3) << endl;
+	cout << "long longå ç”¨ç©ºé—´ä¸º:  " << sizeof(num4) << endl;
 
 
 
@@ -45,7 +48,7 @@ int main()
 
 
 
-	cout << "°´ÈÎÒâ¼ü¹Ø±Õ¡±" << endl;
+	cout << "æŒ‰ä»»æ„é”®å…³é—­â€" << endl;
 	system("pause>nul");
 	return 0;
 }
