@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <string>//使用C++时，要包含这个头文件
 
 int main()
 {
