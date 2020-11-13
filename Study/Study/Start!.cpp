@@ -56,7 +56,7 @@ int main()
 
 	//换行符 \n
 
-	cout << Hello World!\n";
+	cout << "Hello World!\n";
 
 		//反斜杠 \\
 
