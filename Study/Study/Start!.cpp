@@ -52,16 +52,16 @@ int main()
 	// A - 65
 	cout << (int)ch << endl;
 
-	//转义字符
-
-	//换行符 \n
+	//反斜杠 \n
 
 	cout << "Hello World!\n";
+	
+	//布尔数据类型bool
+	bool bool=false //当bool为false或0时，bool为0，否则为1(true)
+		cout << bool << endl;
+	
 
-		//反斜杠 \\
 
-
-		//水平制表符 \\t
 
 	//此行一般一直置于最后
 	cout << "按任意键关闭”" << endl;
