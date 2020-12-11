@@ -7,13 +7,12 @@ int main()
 	// 使用"//"即为标注，在输出时不会进行解析
 	//从1到5行为编程前输入准备，一般在创建文件时可以提前输入
 	system("color 9F");
-	cout << "按任意键进入“初始学习”" << endl;
-	system("pause>nul");
+
 	//使用这个【system("");】可以直接调用cmd中命令
 	//用【cout << "Hello World" << endl;】输出"Hello World"
 	cout << "Hello World" << endl;
-	//【int a = X】用于输入变量
-	int a = 10;
+	//【int a = X】用于输入整型变量
+	int z = 10;
 	//在【cout输入<< a 】可以输出变量
 	//例如【cout <<"XXX" << a << endl;】
 	cout << "电脑一般是" << a << "进制的" << endl;
@@ -22,11 +21,6 @@ int main()
 
 	const auto 七月 = "31天";
 	cout << "七月有" << 七月 << endl;
-
-
-
-	cout << "按任意键进入“sizeof关键字学习”" << endl;
-	system("pause>nul");
 
 	short num1 = 10;
 	int num2 = 10;
@@ -37,15 +31,20 @@ int main()
 	cout << "long 占用空间为:  " << sizeof(num3) << endl;
 	cout << "long long占用空间为:  " << sizeof(num4) << endl;
 
-	cout << "按任意键进入“反斜杠学习”" << endl;
-	system("pause>nul");
-
 	//单字符变量设置（可在后面查看ASCII编码）
 	char ch = 'a';
 	cout << ch << endl;
-
+	
+	//float 用于输入浮点型变量
+	float f =3.14f
+        cout << "浮点型变量f=" << f << endl;
+		
 	//查看char字符型变量所占内存
 	cout << "char字符型变量所占内存：" << sizeof(char) << endl;
+	
+	//布尔数据类型bool
+	bool b=false //当bool为false或0时，bool为0，否则为1(true)
+		cout << "b=" << b << endl;
 
 	//字符型变量对应ASCII编码
 	// a - 97
@@ -56,10 +55,10 @@ int main()
 
 	cout << "Hello World!\n";
 	
-	//布尔数据类型bool
-	bool bool=false //当bool为false或0时，bool为0，否则为1(true)
-		cout << bool << endl;
-	
+	//cin用于数据输入
+	cout << "字符型变量a 此时数据为" << a << endl;
+	cout << "请给字符型变量 a 赋值" << endl; //可给其他类型变量赋值（如整型变量z,浮点型变量f,布尔类型b)
+	cin >> a :
 
 
 
