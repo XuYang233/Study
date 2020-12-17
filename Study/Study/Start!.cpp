@@ -35,9 +35,20 @@ int main()
 	char ch = 'a';
 	cout << ch << endl;
 	
-	//float 用于输入浮点型变量
-	float f =3.14f
-        cout << "浮点型变量f=" << f << endl;
+	//单精度float占用4字节空间，7位有效数字
+	float f1 = 3.14f;
+	//双精度double占用8字节空间，15-16位有效数字
+	double d1 = 3.14;
+
+	//输出f1与d1的值
+	cout << "单精度f1=" << f1 << endl;
+	cout << "双精度d1=" << d1 << endl;
+	//输出f1与d1占用空间大小
+	cout << "float 单精度数值字节数为" << sizeof(f1) << endl;
+	cout << "double 双精度数值字节数为" << sizeof(d1) << endl;
+	//科学计数法
+	float f2 = 3e2; //3* 10 ^ 2
+	cout << "单精度f2科学计数法表示为" << d2 << endl;
 		
 	//查看char字符型变量所占内存
 	cout << "char字符型变量所占内存：" << sizeof(char) << endl;
